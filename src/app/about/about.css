@@ -1,0 +1,23 @@
+.login_menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login_menu li {
+  margin: 0 1rem;
+  list-style: none;
+  font-weight: 400;
+}
+
+.login_menu li a {
+  text-decoration: none;
+  color: black;
+}
+
+.heading {
+  font-size: 2rem;
+  color: rgb(53, 115, 240);
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  text-align: center;
+}

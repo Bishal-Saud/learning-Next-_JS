@@ -8,7 +8,7 @@ const About = () => {
   };
   return (
     <div>
-      <h1>About Page</h1>
+      <h1 className="heading">About Page</h1>
       <br />
       <button onClick={() => navigate("aboutstudents")}>About Student</button>
       <button onClick={() => navigate("aboutcollage")}>About Collage</button>

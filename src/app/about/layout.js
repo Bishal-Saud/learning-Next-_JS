@@ -3,7 +3,7 @@ import "./about.css";
 export default function Layout({ children }) {
   return (
     <div>
-      <ul className="login_menu">
+      <ul className="about_menu">
         <h4>About Navbar</h4>
         <li>
           <Link href="/about">About Main</Link>

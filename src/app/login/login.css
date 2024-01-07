@@ -1,15 +1,15 @@
-.about_menu {
+.login_menu {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.about_menu li {
+.login_menu li {
   margin: 0 1rem;
   list-style: none;
   font-weight: 400;
 }
 
-.about_menu li a {
+.login_menu li a {
   text-decoration: none;
   color: black;
 }

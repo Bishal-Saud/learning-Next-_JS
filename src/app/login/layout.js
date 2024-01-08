@@ -20,7 +20,9 @@ export default function Layout({ children }) {
             <Link href="/login/loginteacher">Login Teacher</Link>
           </li>
         </ul>
-      ) : null}
+      ) : (
+        <Link href="/login">Go back login</Link>
+      )}
 
       {children}
     </div>

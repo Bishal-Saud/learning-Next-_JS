@@ -1,6 +1,7 @@
 "use client";
 export default function Lecture({ params }) {
   console.log(params);
+
   return (
     <div>
       <h1>Lecture of the day</h1>

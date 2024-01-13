@@ -15,3 +15,18 @@
 .blue {
   color: blue;
 }
+
+.borderX {
+  border: 5px solid green;
+  width: 10rem;
+  height: 5rem;
+  padding: 5px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+#fontSize {
+  font-size: 1rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}

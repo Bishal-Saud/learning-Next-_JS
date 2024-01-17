@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import profile from "../../public/next.svg";
 import styles from "./page.module.css";
 import { useState } from "react";
 import Link from "next/link";
@@ -21,6 +22,14 @@ export default function Home() {
       {/* linking  */}
       <Link href="/login">Login</Link>
       <Link href="/about">About</Link>
+
+      <Image src={profile} />
+
+      <Image
+        src={"https://cdn.worldvectorlogo.com/logos/next-js.svg"}
+        width={500}
+        height={500}
+      />
 
       {/* navigation  */}
       <button onClick={() => navigate("login")}>Login page</button>

@@ -9,7 +9,7 @@ export default async function Page() {
     <div>
       <h2>User List</h2>
       {users.map((user) => (
-        <h2>
+        <h2 key={user.id}>
           <Link href={`/users/${user.id}`}>{user.name}</Link>
         </h2>
       ))}

@@ -14,7 +14,7 @@ export default function Page() {
       body: JSON.stringify({ name, age, email }),
     });
     response = await response.json();
-    console.log(response);
+    // console.log(response);
   }
 
   const handleSubmit = (event) => {

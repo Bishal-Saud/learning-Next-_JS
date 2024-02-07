@@ -7,4 +7,5 @@ const DbModel = new mongoose.Schema({
 });
 
 export const Products =
-  mongoose.models.NextJS || mongoose.model("product", DbModel);
+  mongoose.models.NextJS || mongoose.model("NextJS", DbModel);
+//module.exports = Products;

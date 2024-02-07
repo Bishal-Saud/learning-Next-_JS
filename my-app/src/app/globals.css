@@ -1,0 +1,18 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+.form input {
+  width: 10rem;
+  height: 2rem;
+  padding: 0.2rem 1rem;
+}
+
+.form .btn {
+  width: 10rem;
+  height: 2rem;
+  padding: 0.2rem 1rem;
+}
